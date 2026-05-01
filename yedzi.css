@@ -1,0 +1,238 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+ .logo{
+    margin-left: 600px;
+}
+body {
+    background-color: black;
+}
+ul{
+    margin-left:  550px;
+}
+ul li{
+    display:inline;
+    list-style: none;
+    padding: 20px;
+    color: aliceblue;
+}
+.content1{
+    padding-right: 20px;
+    height: 100vh;
+    background-image: url("https://www.jawayezdimotorcycles.com/cdn/shop/files/og-website-05.jpg?v=1755166840&width=1800");
+ background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.content1 button{
+    margin-left:  750px;
+    margin-top: 500px;
+border-radius: 30px;
+padding: 20px;
+} 
+.content1 button:hover{
+    background-color: brown;
+    color: red;
+    box-shadow: 5px 5px 5px grey;
+}
+.content2{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.jawayezdimotorcycles.com/cdn/shop/files/ChatGPT_Image_Jul_29_2025_12_12_04_PM_1.png?v=1753880734&width=1200");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.content2 q:hover{
+color: aliceblue;
+font-size: 35px;
+font-weight:80;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qt q{
+    position: absolute;
+font-size:35px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: antiquewhite;
+margin: 250px;
+text-align: center;
+text-justify: auto;
+}
+.sell h1{
+    color: white;
+}
+ .bikes{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 450px 450px 450px;
+    gap:20px;
+    height: 100vh; 
+    justify-content: center;
+}
+.bikes img{
+height: 400px;
+width: 400px;
+object-fit:fill;
+
+}
+
+.bikes, .img1, .img2, .img3, .img4, .img5, .img6{
+    
+    padding:20px;
+}
+
+
+
+.media h1{
+    margin-top: 250px;
+    color: aliceblue;
+}
+.videos{
+    height: 70vh;
+    width: 100%;
+}
+ .videos{
+    gap: 20px;
+    display:flex;
+    overflow:hidden;
+    overflow-x: scroll;
+    overflow-x: hidden ;
+ }
+.videos video{
+width:80%
+}   
+
+ .single{
+    height: 80vh;
+    width: 100%;
+background-image: url("https://www.jawayezdimotorcycles.com/cdn/shop/files/Image_1_26d4dc25-4ab1-4317-a68a-735a06566a20.png?v=1754309989");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+
+} 
+.wave{
+    width: 50%;
+    padding-left: 280px;
+    padding-top: 80px;
+}
+.singlect{
+    width: 50%;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-left: 50px;
+padding-top: 180px;
+}
+
+.singlect h1{
+    color: brown;
+}
+.singlect p{
+    color: aliceblue;
+}
+
+.lastclass{
+    height: 100vh;
+    width: 100%;
+   
+}
+.java img{
+    height: 100vh;
+    width: 100%;
+object-fit:cover;
+}
+
+.lc{
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.footer {
+    height: 50vh;
+    width: 100%;
+}
+.leftside{
+    width:50%;
+    float: left;
+}
+.leftside img{
+    padding-left: 50px;
+    height: 50px;
+}
+.leftside h2{
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftside input{
+    margin: 20px;
+    background-color: gray;
+    border-radius:0px;
+    padding: 20px 20px 20px 90px;
+}
+.rightside{
+    width: 50%;
+    display:flex;
+    margin: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rs1 ol {
+    color: aliceblue;
+    list-style: none;
+    align-content: justify;
+    line-height: 30px;
+    padding: 30px;
+
+}
+.rs2 ol {
+    color: aliceblue;
+    list-style: none;
+    align-content: justify;
+    line-height: 30px;
+    padding: 30px;
+
+}
+.rs3 ol {
+    color: aliceblue;
+    list-style: none;
+    padding: 30px;
+    align-content: justify;
+    line-height: 30px;
+
+}
+.rs4 ol {
+    color: aliceblue;
+    list-style: none;
+    padding: 30px;
+    align-content: justify;
+    line-height: 30px;
+
+}
+.final{
+    height: 30vh;
+}
+.icons{
+    padding: 30px;
+    margin-bottom:20px;
+    margin-left: 50px;
+
+}
+.icons svg{
+    padding:5px;
+    color: aliceblue;
+    gap: 30px;
+}
+.copy p{
+    padding-bottom:80px;
+    padding-left:80px;
+    color: aliceblue;
+}
